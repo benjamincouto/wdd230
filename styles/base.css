@@ -157,3 +157,11 @@ footer p {
   justify-content: center;
   background-color: #fefae0;
 }
+
+/* dark mode button */
+
+#mode {
+  position: absolute;
+  right: 1rem;
+  top: 13.5rem;
+}

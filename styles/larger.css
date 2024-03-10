@@ -42,4 +42,10 @@
   nav.navigation {
     margin-top: 0;
   }
+
+  #mode {
+    position: absolute;
+    right: 1rem;
+    top: 13rem;
+  }
 }
