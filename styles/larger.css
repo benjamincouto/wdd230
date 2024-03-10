@@ -1,4 +1,10 @@
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 37.5em) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   main {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -13,16 +19,27 @@
     grid-row: 2/3;
   }
 
-  nav ul {
-    display: flex;
-  }
-
-  nav ul li {
-    flex: 1 1 100%;
-  }
-
   main h1 {
     text-align: left;
     font-size: x-large;
+  }
+
+  #menu {
+    display: none; /* hide hamburger button */
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    padding-top: 0;
+  }
+
+  .navigation a {
+    display: block;
+    flex: 1 1 100%;
+  }
+
+  nav.navigation {
+    margin-top: 0;
   }
 }
