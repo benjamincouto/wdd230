@@ -7,7 +7,6 @@
 main {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto auto;
   grid-gap: 20px;
 }
 
@@ -159,6 +158,8 @@ footer p {
   background-color: #fefae0;
 }
 
+/* Hero */
+
 .hero {
   width: 100%;
   position: relative;
@@ -179,6 +180,12 @@ footer p {
   background-color: rgba(255, 255, 255, 0.5);
   font-weight: bolder;
   padding: 1rem;
+}
+
+/* map */
+
+.map {
+  width: 100%;
 }
 
 /* dark mode button */
