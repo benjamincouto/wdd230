@@ -37,14 +37,17 @@
       </div>
       <nav class="navigation">
         <a href="index.html" title="Home">Home</a>
-        <a href="" title="Discover">Discover</a>
+        <a href="discover.html" title="Discover">Discover</a>
         <a href="" title="Directory">Directory</a>
         <a href="" title="Join">Join</a>
       </nav>
     </div>
-    <div class="main-grid">
+    <main class="main-grid">
       <div class="hero-box">
-        <img class="hero-image" src="images/hero.jpg" alt="Hero Image" />
+        <picture>
+          <source srcset="images/hero-small.webp" media="(max-width: 480px)" />
+          <img class="hero-image" src="images/hero.webp" alt="Hero Image" />
+        </picture>
       </div>
       <div class="hero-info">
         <a class="join-button" href="">Join Now!</a>
@@ -101,7 +104,7 @@
           </p>
         </div>
       </section>
-    </div>
+    </main>
     <footer>
       <p id="copyright"></p>
       <p>WDD 230</p>

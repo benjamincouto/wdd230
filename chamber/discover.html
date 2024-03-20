@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Montevideo Chamber of Commerce</title>
+    <meta
+      name="description"
+      content="This is the website of the Montevideo Chamber of Commerce, which operates in the lively city of Montevideo, Uruguay. Our primary goal is to create a positive and enduring impact on the local commerce scene, nurturing growth and prosperity within our community. With updated policies and a dynamic calendar featuring various training programs, we are dedicated to enhancing the skills and capabilities of our members. Explore our platform to stay informed about the latest developments and opportunities for professional development."
+    />
+    <meta name="author" content="Benjamin Couto" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+    <link rel="icon" href="images/favicon.ico" />
+    <meta property="og:title" content="Montevideo Chamber of Commerce" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://benjamincouto.github.io/wdd230/chamber/images/hero.jpg"
+    />
+    <meta
+      property="og:url"
+      content="https://benjamincouto.github.io/wdd230/chamber/index.html"
+    />
+  </head>
+  <body>
+    <div class="header-nav-grid">
+      <header>
+        <img class="logo" src="images/logo.png" alt="Chamber Logo" />
+        <div class="header-text">
+          <h1>Montevideo Chamber of Commerce</h1>
+        </div>
+      </header>
+      <div id="menu-container">
+        <button id="menu"></button>
+      </div>
+      <nav class="navigation">
+        <a href="index.html" title="Home">Home</a>
+        <a href="" title="Discover">Discover</a>
+        <a href="" title="Directory">Directory</a>
+        <a href="" title="Join">Join</a>
+      </nav>
+    </div>
+    <main>
+      <div class="demographics">
+        <h3>Demographics</h3>
+        <p>
+          Montevideo is Uruguay's largest city, home to over 1.3 million people,
+          making it the cultural and economic heartbeat of the nation. The
+          city's diverse population reflects Uruguay's history as a melting pot
+          of European, African, and indigenous influences, creating a vibrant
+          and inclusive atmosphere.
+        </p>
+      </div>
+      <div class="stats">
+        <h3>Statistical Data</h3>
+        <ul>
+          <li>
+            GDP Contribution: Montevideo contributes significantly to Uruguay's
+            GDP, accounting for approximately 50% of the nation's economic
+            output.
+          </li>
+          <li>
+            Economic Sectors: The city's economy is driven by various sectors,
+            including finance, technology, tourism, and services. The financial
+            district in Ciudad Vieja houses numerous banks, investment firms,
+            and corporate offices.
+          </li>
+          <li>
+            Employment Opportunities: Montevideo offers a range of employment
+            opportunities across industries, with a focus on information
+            technology, finance, hospitality, and creative industries.
+          </li>
+          <li>
+            Foreign Investment: The city attracts foreign investment due to its
+            strategic location, stable economy, skilled workforce, and
+            supportive business environment.
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h3>Events & Festivals</h3>
+        <p>
+          Montevideo is renowned for its lively events and festivals that
+          celebrate its rich cultural heritage. From the vibrant Carnival, a
+          colorful extravaganza of music, dance, and costumes, to the Montevideo
+          Tango Festival, showcasing the passion and elegance of Argentine
+          tango, there's always something exciting happening in the city.
+        </p>
+      </div>
+      <div class="discover-images">
+        <picture>
+          <source srcset="images/city-small.webp" media="(max-width: 480px)" />
+          <img
+            src="images/city.webp"
+            alt="Montevideo Temple"
+            height="400"
+            width="600"
+            loading="lazy"
+          />
+        </picture>
+        <picture>
+          <source
+            srcset="images/rambla-small.webp"
+            media="(max-width: 480px)"
+          />
+          <img
+            src="images/rambla.webp"
+            alt="Montevideo Temple"
+            height="400"
+            width="600"
+            loading="lazy"
+          />
+        </picture>
+        <picture>
+          <source
+            srcset="images/llamadas-small.webp"
+            media="(max-width: 480px)"
+          />
+          <img
+            src="images/llamadas.webp"
+            alt="Montevideo Temple"
+            height="400"
+            width="600"
+            loading="lazy"
+          />
+        </picture>
+        <picture>
+          <source
+            srcset="images/estadio-small.webp"
+            media="(max-width: 480px)"
+          />
+          <img
+            src="images/estadio.webp"
+            alt="Montevideo Temple"
+            height="400"
+            width="600"
+            loading="lazy"
+          />
+        </picture>
+        <picture>
+          <source srcset="images/tango-small.webp" media="(max-width: 480px)" />
+          <img
+            src="images/tango.webp"
+            alt="Montevideo Temple"
+            height="400"
+            width="600"
+            loading="lazy"
+          />
+        </picture>
+        <picture>
+          <source
+            srcset="images/rambla-noche-small.webp"
+            media="(max-width: 480px)"
+          />
+          <img
+            src="images/rambla-noche.webp"
+            alt="Montevideo Temple"
+            height="400"
+            width="600"
+            loading="lazy"
+          />
+        </picture>
+      </div>
+    </main>
+    <footer>
+      <p id="copyright"></p>
+      <p>WDD 230</p>
+      <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburgerMenu.js"></script>
+  </body>
+</html>

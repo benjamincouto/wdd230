@@ -143,3 +143,10 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+/* Discover */
+
+.discover-images picture img {
+  max-width: 600px;
+  height: auto;
+}
