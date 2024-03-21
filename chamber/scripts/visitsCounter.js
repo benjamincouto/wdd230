@@ -21,7 +21,7 @@ console.log("Last Visit:", lastVisit);
 let dayDiff = (today - lastVisit) / msToDays;
 console.log("Day Difference:", dayDiff);
 
-if (numVisits !== 0) {
+if (lastVisit !== 0) {
   if (dayDiff >= 0 && dayDiff < 1) {
     visitsDisplay.textContent = "Back so soon! Awesome!";
   } else if (dayDiff >= 1 && dayDiff < 2) {
