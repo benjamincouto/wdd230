@@ -9,6 +9,12 @@
       content="This is the website of the Montevideo Chamber of Commerce, which operates in the lively city of Montevideo, Uruguay. Our primary goal is to create a positive and enduring impact on the local commerce scene, nurturing growth and prosperity within our community. With updated policies and a dynamic calendar featuring various training programs, we are dedicated to enhancing the skills and capabilities of our members. Explore our platform to stay informed about the latest developments and opportunities for professional development."
     />
     <meta name="author" content="Benjamin Couto" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/base.css" />
     <link rel="stylesheet" href="styles/larger.css" />
@@ -45,8 +51,19 @@
     <main class="main-grid">
       <div class="hero-box">
         <picture>
-          <source srcset="images/hero-small.webp" media="(max-width: 480px)" />
-          <img class="hero-image" src="images/hero.webp" alt="Hero Image" />
+          <source
+            srcset="images/hero-small.webp"
+            media="(max-width: 480px)"
+            loading="lazy"
+          />
+          <img
+            class="hero-image"
+            src="images/hero.webp"
+            alt="Hero Image"
+            height="400"
+            width="600"
+            loading="lazy"
+          />
         </picture>
       </div>
       <div class="hero-info">
