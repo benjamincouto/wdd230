@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+:root {
+  --dark-font-color: #283618; /* Dark font color */
+  --light-font-color: #fefae0; /* Light font color */
+  --dark-bg-color: #283618; /* Dark background color */
+  --light-bg-color: #fefae0; /* Light background color */
+  --highlight-color: #dda15e; /* Light background color */
+}
+
 main {
   display: grid;
   grid-template-columns: 1fr;

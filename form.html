@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Benjamin Couto - WDD 230 - Web Frontend Development</title>
+    <meta
+      name="description"
+      content="This is Benjamin Couto's course assignment portal for WDD 230 - Web Frontend Development"
+    />
+    <meta name="author" content="Benjamin Couto" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/favicon.ico" />
+    <meta
+      property="og:title"
+      content="Benjamin Couto - WDD 230 - Web Front-end Development"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://benjamincouto.github.io/wdd230/week02/images/montevideo.jpg"
+    />
+    <meta property="og:url" content="https://benjamincouto.github.io/wdd230/" />
+  </head>
+  <body>
+    <button id="mode">🌙</button>
+    <header>
+      <img
+        class="me"
+        src="images/me.webp"
+        alt="Profile Picture"
+        loading="lazy"
+      />
+      <span>Benjamin Couto</span>
+    </header>
+    <div id="menu-container">
+      <button id="menu"></button>
+    </div>
+    <nav class="navigation">
+      <a href="index.html" title="Home">Home</a>
+      <a
+        href="chamber/index.html"
+        title="Chamber Website"
+        >Chamber</a
+      >
+
+      <a
+        href="week01/chamber-site-plan.html"
+        title="Site Plan"
+        >Site Plan</a
+      >
+
+      <a href="form.html" title="Form">Form</a>
+    </nav>
+    <main>
+        <form method="get" action="record.html" class="wf1">
+            <fieldset>
+              <legend>Form</legend>
+              <label>Username* <input type="text" id="userName" name="username" required /></label>
+              <label>Password* <input type="password" id="password" name="password" pattern="[A-Za-z0-9]{8,}" required /></label>
+              <label>Confirm Password* <input type="password" id="confirmPassword" name="password" pattern="[A-Za-z0-9]{8,}" required /></label>
+              <label
+              >E-mail*
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="someone@byui.edu"
+                pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+                title="Please enter a valid email address."
+                required
+            /></label>
+            <label for="pageRating">Page Rating</label> 
+            <div id="rangeValue">1</div>
+            <input type="range" id="pageRating" name="pageRating" min="1" max="10" step="1" list="rangeValues">
+            <datalist id="rangeValues">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </datalist>
+
+            <input type="submit" value="Create Profile & Send Feedback" />
+          </form>
+
+    </main>
+
+    <footer>
+      <p id="copyright"></p>
+      <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburgerMenu.js"></script>
+    <script src="scripts/darkMode.js"></script>
+    <script src="scripts/visitsCounter.js"></script>
+    <script src="scripts/checkPassword.js"></script>
+    <script src="scripts/range.js"></script>
+  </body>
+</html>
