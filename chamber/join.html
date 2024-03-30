@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Montevideo Chamber of Commerce</title>
+    <meta
+      name="description"
+      content="This is the website of the Montevideo Chamber of Commerce, which operates in the lively city of Montevideo, Uruguay. Our primary goal is to create a positive and enduring impact on the local commerce scene, nurturing growth and prosperity within our community. With updated policies and a dynamic calendar featuring various training programs, we are dedicated to enhancing the skills and capabilities of our members. Explore our platform to stay informed about the latest developments and opportunities for professional development."
+    />
+    <meta name="author" content="Benjamin Couto" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+    <link rel="icon" href="images/favicon.ico" />
+    <meta property="og:title" content="Montevideo Chamber of Commerce" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://benjamincouto.github.io/wdd230/chamber/images/hero.jpg"
+    />
+    <meta
+      property="og:url"
+      content="https://benjamincouto.github.io/wdd230/chamber/index.html"
+    />
+  </head>
+  <body>
+    <div class="header-nav-grid">
+      <header>
+        <img class="logo" src="images/logo.png" alt="Chamber Logo" />
+        <div class="header-text">
+          <h1>Montevideo Chamber of Commerce</h1>
+        </div>
+      </header>
+      <div id="menu-container">
+        <button id="menu"></button>
+      </div>
+      <nav class="navigation">
+        <a href="index.html" title="Home">Home</a>
+        <a href="discover.html" title="Discover">Discover</a>
+        <a href="" title="Directory">Directory</a>
+        <a href="join.html" title="Join">Join</a>
+      </nav>
+    </div>
+    <main class="form-grid">
+      <form method="get" action="thankyou.html" class="wf1">
+        <fieldset>
+          <legend>Join the Chamber</legend>
+          <div><p>Joining our Chamber opens up a world of opportunities for your business. Whether you're a start-up, a growing enterprise, or an established company, our membership benefits are designed to support your success and help you thrive in today's competitive business environment.</p>
+            <p>Complete the form below to start your journey with us:</p></div>
+          <label
+            >First Name*
+            <input type="text" id="fName" name="fname" required
+          /></label>
+          <label
+          >Last Name*
+          <input type="text" id="lName" name="lname" required
+        /></label>
+        <label
+          >Title or Position*
+          <input type="text" id="title" name="title" pattern="^[a-zA-Z\s\-]{7,}$" required
+        /></label>
+        <label
+        >E-mail*
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="someone@byui.edu"
+          pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+          title="Please enter a valid email address."
+          required
+      /></label>
+          <label>Mobile Phone Number*<input type="telephone" id="mobile" name="mobile" required></label>
+       <label>Business/Organization's Name*<input type="text" id="organization" name="organization" required></label>
+          <div>Membership Level</div>
+          <label
+            ><input type="radio" id="membership" name="membership" value="NP" /> NP
+          </label>
+          <label
+            ><input type="radio" id="membership" name="membership" value="Bronze" />
+            Bronze
+          </label>
+          <label
+            ><input type="radio" id="membership" name="membership" value="Silver" /> Silver
+          </label>
+          <label
+            ><input type="radio" id="membership" name="membership" value="Gold" /> Gold
+          </label>
+
+          
+          </datalist>
+          <label><input type="hidden" id="timeStamp" name="timeStamp"></label>
+        </fieldset>
+
+        <input type="submit" value="Join the Chamber" />
+      </form>
+      <div class="membershipDetails">
+        <section id="np-membership" class="membership-section">
+          <h3>NP Membership (Non-Profit)</h3>
+          <p><strong>Cost:</strong> No fee</p>
+          <p><strong>Benefits:</strong></p>
+          <ul>
+              <li>Access to networking events tailored for non-profit organizations.</li>
+              <li>Participation in specialized training and workshops focused on non-profit management and fundraising.</li>
+              <li>Inclusion in the Chamber's directory of non-profit organizations.</li>
+              <li>Opportunity to collaborate on community projects.</li>
+          </ul>
+      </section>
+      
+      <section id="bronze-membership" class="membership-section">
+          <h3>Bronze Membership</h3>
+          <p><strong>Cost:</strong> $100 monthly</p>
+          <p><strong>Benefits:</strong></p>
+          <ul>
+              <li>Invitation to exclusive networking events.</li>
+              <li>Access to training sessions covering essential business topics.</li>
+              <li>Featured listing on the Chamber's website.</li>
+              <li>Discounts on Chamber-sponsored events.</li>
+          </ul>
+      </section>
+
+      <section id="silver-membership" class="membership-section">
+          <h3>Silver Membership</h3>
+          <p><strong>Cost:</strong> $250 monthly</p>
+          <p><strong>Benefits:</strong></p>
+          <ul>
+              <li>Priority access to premium networking events.</li>
+              <li>Advanced training programs for business skills enhancement.</li>
+              <li>Prominent advertising space on the Chamber's website.</li>
+              <li>Special discounts and offers from Chamber partners.</li>
+          </ul>
+      </section>
+
+      <section id="gold-membership" class="membership-section">
+          <h3>Gold Membership</h3>
+          <p><strong>Cost:</strong> $400 monthly</p>
+          <p><strong>Benefits:</strong></p>
+          <ul>
+              <li>VIP access to exclusive networking gatherings.</li>
+              <li>Customized training sessions led by industry experts.</li>
+              <li>Premier advertising opportunities on the Chamber's website.</li>
+              <li>Exclusive discounts, perks, and personalized services.</li>
+          </ul>
+      </section>
+      </div>
+    </main>
+    <footer>
+      <p id="copyright"></p>
+      <p>WDD 230</p>
+      <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburgerMenu.js"></script>
+  </body>
+</html>
