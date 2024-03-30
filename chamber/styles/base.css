@@ -206,6 +206,10 @@ footer {
 
 /* Form Page */
 
+.wf1 {
+  margin-top: 2rem;
+}
+
 .wf1 fieldset {
   /* margin: 2rem 0; */
   border: 1px solid #ddd;
@@ -273,4 +277,8 @@ footer {
 
 .thankYouMain section a {
   line-height: 4rem;
+}
+
+#businessDescription {
+  width: 80%;
 }
