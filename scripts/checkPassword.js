@@ -17,5 +17,7 @@ function checkSame() {
     message.textContent = "";
     password2.style.backgroundColor = "#fff";
     password2.style.color = "#000";
+    password1.style.backgroundColor = "#fff";
+    password1.style.color = "#000";
   }
 }
