@@ -83,3 +83,8 @@ input[type="range"] {
   margin-left: 1rem;
   padding: 0.5em;
 }
+
+#formMessage {
+  color: red;
+  font-weight: bold;
+}
