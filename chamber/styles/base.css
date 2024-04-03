@@ -282,3 +282,26 @@ footer {
 #businessDescription {
   width: 80%;
 }
+
+/* Directory Page */
+
+#cards-directory {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+  align-items: center;
+  margin: 1rem;
+}
+
+#cards-directory img {
+  width: 100%;
+  height: auto;
+}
+
+#cards-directory section {
+  border: 1px solid #1d3557;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-size: 0.7rem;
+  text-align: center;
+}

@@ -5,14 +5,13 @@ const cards = document.querySelector("#cards-directory");
 async function getMembersData() {
   const response = await fetch(url);
   const data = await response.json();
-  //   console.table(data.prophets);
-  displayMembers(data.prophets);
+  displayMembers(data.members);
 }
 
 getMembersData();
 
 const displayMembers = (members) => {
-  members.forEach((company) => {
+  members.forEach((member) => {
     //create html elements
     let card = document.createElement("section");
     let companyName = document.createElement("p");
@@ -22,24 +21,24 @@ const displayMembers = (members) => {
     let website = document.createElement("a");
 
     //company info
-    companyName.textContent = `${company.birthdate}`;
-    address.textContent = `${company.birthplace}`;
-    phone.textContent = `${company.birthplace}`;
-    website.textContent = `${company.website}`;
+    companyName.textContent = member.name;
+    address.textContent = member.address;
+    phone.textContent = member.phone;
+    website.textContent = member.website;
 
     //company logo data
-    logo.setAttribute("src", company.image);
+    logo.setAttribute("src", member.image);
     logo.setAttribute("alt", `${companyName} Logo`);
     logo.setAttribute("loading", "lazy");
     logo.setAttribute("width", "340");
     logo.setAttribute("height", "auto");
 
     //website
-    website.setAttribute("href", company.website);
+    website.setAttribute("href", member.website);
 
     //append card
     card.appendChild(logo);
-    card.appendChild(adress);
+    card.appendChild(address);
     card.appendChild(phone);
     card.appendChild(website);
 
