@@ -1,0 +1,101 @@
+{
+    "weeks": [
+      {
+        "week": "Week 01",
+        "links": [
+            {
+                "url": "week01/holygrail.html",
+                "title": "Layout"
+            },
+            {
+                "url": "week01/media-query.html",
+                "title": "Media Query"
+            }
+        ]
+      },
+      {
+        "week": "Week 02",
+        "links": [
+            {
+                "url": "week02/design.html",
+                "title": "Design"
+            },
+            {
+                "url": "https://developers.facebook.com/tools/debug/?q=https%3A%2F%2Fbenjamincouto.github.io%2Fwdd230%2F",
+                "title": "Meta Tags"
+            },
+            {
+                "url": "https://codepen.io/bcouto/pen/RwOrKWG",
+                "title": "Hamburger Menu"
+            },
+            {
+                "url": "week02/bom.html",
+                "title": "DOM Manipulation"
+            }
+        ]
+      },
+      {
+        "week": "Week 03",
+        "links": [
+            {
+                "url": "week03/images/landscape.webp",
+                "title": "WebP"
+            },
+            {
+                "url": "week03/lazyload.html",
+                "title": "LazyLoad"
+            },
+            {
+                "url": "week03/responsive-images.html",
+                "title": "Responsive Images"
+            },
+            {
+                "url": "week03/bom.html",
+                "title": "BOM"
+            }
+        ]
+      },
+      {
+        "week": "Week 04",
+        "links": [
+            {
+                "url": "https://codepen.io/bcouto/pen/poBPJyV",
+                "title": "CSS Pseudo-Classes"
+            },
+            {
+                "url": "images/combinators.jpg",
+                "title": "Combinators"
+            },
+            {
+                "url": "week04/tablebuild.html",
+                "title": "Tables"
+            },
+            {
+                "url": "week04/forms/index.html",
+                "title": "Form"
+            }
+        ]
+      },
+      {
+        "week": "Week 05",
+        "links": [
+            {
+                "url": "https://codepen.io/bcouto/pen/poBWXJd",
+                "title": "CSS Pseudo-Elements"
+            },
+            {
+                "url": "week05/new-ward-members.json",
+                "title": "JSON"
+            },
+            {
+                "url": "week05/week05/prophets.html",
+                "title": "Prophets"
+            },
+            {
+                "url": "week05/week05/weather.html",
+                "title": "Weather"
+            }
+        ]
+      }
+    ]
+  }

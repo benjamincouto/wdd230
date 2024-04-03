@@ -203,3 +203,19 @@ footer p {
   right: 1rem;
   top: 13.5rem;
 }
+
+/* Weather Card */
+#figcaption {
+  text-transform: capitalize;
+}
+
+.weatherCard {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  margin: 1.5rem;
+}
+
+#weather-icon {
+  margin-right: 0.5rem;
+}
