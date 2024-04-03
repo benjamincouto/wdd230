@@ -1,0 +1,67 @@
+{
+    "companies": [
+      {
+        "name": "NTech Corporation",
+        "address": "Av. Uruguay 123, Montevideo, Uruguay",
+        "phone": "+598-12-345-678",
+        "website": "https://www.ntechcorp.com",
+        "image": "data/logos/ntech.png",
+        "membership_level": "Silver",
+        "other_info": "Specializes in technology solutions."
+      },
+      {
+        "name": "HM Industries",
+        "address": "Calle Artigas 456, Punta del Este, Uruguay",
+        "phone": "+598-23-456-789",
+        "website": "https://www.hmindustries.com",
+        "image": "data/logos/hm.png",
+        "membership_level": "Gold",
+        "other_info": "Manufacturing and distribution company."
+      },
+      {
+        "name": "PVC Enterprises",
+        "address": "Rbla. República Argentina 789, Montevideo, Uruguay",
+        "phone": "+598-34-567-890",
+        "website": "https://www.pqrenterprises.com",
+        "image": "data/logos/pvc.png",
+        "membership_level": "Bronze",
+        "other_info": "Offers consulting and advisory services."
+      },
+      {
+        "name": "GT Solutions",
+        "address": "Av. Italia 101, Montevideo, Uruguay",
+        "phone": "+598-45-678-901",
+        "website": "https://www.gtsolutions.com",
+        "image": "data/logos/gt.png",
+        "membership_level": "Gold",
+        "other_info": "Provides software development and IT services."
+      },
+      {
+        "name": "Premium Housing Group",
+        "address": "Av. Gral. Rivera 202, Montevideo, Uruguay",
+        "phone": "+598-56-789-012",
+        "website": "https://www.premiumhousinggroup.com",
+        "image": "data/logos/housing.png",
+        "membership_level": "Silver",
+        "other_info": "Real estate development and investment company."
+      },
+      {
+        "name": "CSH Corporation",
+        "address": "Av. Dr. Luis Alberto de Herrera 303, Montevideo, Uruguay",
+        "phone": "+598-67-890-123",
+        "website": "https://www.cshcorp.com",
+        "image": "data/logos/csh.png",
+        "membership_level": "Gold",
+        "other_info": "Global financial services provider."
+      },
+      {
+        "name": "ASP Enterprises",
+        "address": "Av. 18 de Julio 404, Montevideo, Uruguay",
+        "phone": "+598-78-901-234",
+        "website": "https://www.aspenterprises.com",
+        "image": "data/logos/asp.png",
+        "membership_level": "Silver",
+        "other_info": "Specializes in marketing and advertising."
+      }
+    ]
+  }
