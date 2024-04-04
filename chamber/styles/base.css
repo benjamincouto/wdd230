@@ -285,23 +285,93 @@ footer {
 
 /* Directory Page */
 
-#cards-directory {
+.grid-directory {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 1rem;
-  align-items: center;
+  grid-gap: 5px;
+  align-items: stretch;
   margin: 1rem;
 }
 
-#cards-directory img {
+.grid-directory img {
   width: 100%;
   height: auto;
 }
 
-#cards-directory section {
+.grid-directory section {
   border: 1px solid #1d3557;
   padding: 0.5rem;
   border-radius: 5px;
   font-size: 0.7rem;
   text-align: center;
+  display: flex; /* Use flexbox for equal height items */
+  flex-direction: column; /* Stack content vertically */
+  justify-content: space-between; /* Distribute space evenly between items */
+}
+
+.grid-directory section > * {
+  margin: 0.1rem;
+  flex: 1; /* Grow to fill available space equally */
+}
+
+.grid-directory section h3,
+.grid-directory section p {
+  margin: 0;
+}
+
+.menu-buttons {
+  margin: 1rem auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.menu-buttons button {
+  padding: 1rem;
+  font-weight: 700;
+}
+
+/* Directory - List View */
+
+.list-directory {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-directory section {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  margin: 0;
+  padding: 0.25rem;
+}
+
+.list-directory section > * {
+  margin: 0.5rem;
+}
+
+.list-directory section img {
+  display: none;
+}
+
+.list-directory section h3 {
+  font-size: 1rem;
+  font-family: Roboto, Helvetica, sans-serif;
+  text-align: left;
+  margin-left: 1rem;
+}
+
+.list-directory section p {
+  font-size: 1rem;
+  font-family: Roboto, Helvetica, sans-serif;
+  text-align: left;
+  margin-right: 1rem;
+}
+
+.list-directory section a {
+  justify-content: center;
+  align-items: center;
+}
+
+.list-directory section:nth-child(even) {
+  background-color: #f1faee;
 }

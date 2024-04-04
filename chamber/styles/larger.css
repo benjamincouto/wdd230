@@ -147,4 +147,14 @@
     margin-left: 1rem;
     margin-right: 1rem;
   }
+
+  /* Directory Page - List View */
+
+  .list-directory section {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    margin: 0;
+    padding: 0.25rem;
+    text-align: start;
+  }
 }
