@@ -1,4 +1,4 @@
-const form = getElementById("wf1");
+const form = document.querySelector(".wf1");
 const timeStamp = getElementById("timeStamp");
 
 form.addEventListener("submit", setDateTime);
