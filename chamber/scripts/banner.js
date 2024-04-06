@@ -1,0 +1,15 @@
+function closeBanner() {
+  const banner = document.getElementById("banner");
+  banner.style.display = "none";
+}
+
+function displayBanner() {
+  const today = new Date().getDay();
+  if (today >= 1 && today <= 3) {
+    // Monday (1), Tuesday (2), and Wednesday (3)
+    const banner = document.getElementById("banner");
+    banner.style.display = "block";
+  }
+}
+
+displayBanner();

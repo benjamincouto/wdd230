@@ -7,7 +7,8 @@
         "website": "https://www.ntechcorp.com",
         "image": "data/logos/ntech.png",
         "membership_level": "Silver",
-        "other_info": "Specializes in technology solutions."
+        "other_info": "Specializes in technology solutions.",
+        "slogan" : "Empowering Your Tech Journey."
       },
       {
         "name": "HM Industries",
@@ -16,7 +17,8 @@
         "website": "https://www.hmindustries.com",
         "image": "data/logos/hm.png",
         "membership_level": "Gold",
-        "other_info": "Manufacturing and distribution company."
+        "other_info": "Manufacturing and distribution company.",
+        "slogan" : "Innovating Excellence."
       },
       {
         "name": "PVC Enterprises",
@@ -25,7 +27,8 @@
         "website": "https://www.pqrenterprises.com",
         "image": "data/logos/pvc.png",
         "membership_level": "Bronze",
-        "other_info": "Offers consulting and advisory services."
+        "other_info": "Offers consulting and advisory services.",
+        "slogan" : "Navigating Success Together."
       },
       {
         "name": "GT Solutions",
@@ -34,7 +37,8 @@
         "website": "https://www.gtsolutions.com",
         "image": "data/logos/gt.png",
         "membership_level": "Gold",
-        "other_info": "Provides software development and IT services."
+        "other_info": "Provides software development and IT services.",
+        "slogan" : "Turning Ideas Into Solutions."
       },
       {
         "name": "Premium Housing Group",
@@ -43,7 +47,8 @@
         "website": "https://www.phgroup.com",
         "image": "data/logos/housing.png",
         "membership_level": "Silver",
-        "other_info": "Real estate development and investment company."
+        "other_info": "Real estate development and investment company.",
+        "slogan" : "Building Dreams, Creating Homes."
       },
       {
         "name": "CSH Corporation",
@@ -52,7 +57,8 @@
         "website": "https://www.cshcorp.com",
         "image": "data/logos/csh.png",
         "membership_level": "Gold",
-        "other_info": "Global financial services provider."
+        "other_info": "Global financial services provider.",
+        "slogan" : "Global Solutions, Local Trust."
       },
       {
         "name": "ASP Enterprises",
@@ -61,7 +67,8 @@
         "website": "https://www.aspenterprises.com",
         "image": "data/logos/asp.png",
         "membership_level": "Silver",
-        "other_info": "Specializes in marketing and advertising."
+        "other_info": "Specializes in marketing and advertising.",
+        "slogan" : "Unlocking Potential, Driving Growth."
       }
     ]
   }

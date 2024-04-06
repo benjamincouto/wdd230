@@ -376,3 +376,60 @@ footer {
 .list-directory section:nth-child(even) {
   background-color: #f1faee;
 }
+
+/* Banner */
+
+.banner {
+  display: none; /* Initially hide the banner */
+  width: 100%;
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.close-btn {
+  float: right;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.close-btn:hover {
+  color: #721c24; /* Example hover color */
+}
+
+/* Weather Card */
+
+.weather-card {
+  display: flex; /* Use flexbox for horizontal layout */
+  justify-content: space-around; /* Space items evenly along the main axis */
+  gap: 1rem;
+  align-items: center; /* Center items vertically */
+}
+
+.todayWeather {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.day-card {
+  flex: 1; /* Each day card takes equal space */
+  background-color: #e63946;
+  padding: 1rem;
+  border: 1px solid #1d3557;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.weather-icon img {
+  max-width: 100px; /* Adjust image size as needed */
+}
+
+.weather-card p {
+  margin: 0.5rem 0;
+}

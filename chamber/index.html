@@ -48,6 +48,13 @@
         <a href="join.html" title="Join">Join</a>
       </nav>
     </div>
+    <div id="banner" class="banner">
+      <span class="close-btn" onclick="closeBanner()">×</span>
+      <p>
+        Join Us for the Chamber of Commerce Meet and Greet! Wednesday at 7:00
+        p.m. We look forward to seeing you there!
+      </p>
+    </div>
     <main class="main-grid">
       <div class="hero-box">
         <picture>
@@ -91,7 +98,16 @@
         </div>
       </section>
       <section class="weather-card">
-        <h2>Weather</h2>
+        <div class="todayWeather">
+          <h3>Today's Weather</h3>
+          <img id="weather-icon" src="#" alt="Thumbnail" />
+          <p><span id="current-temp"></span> - <span id="figcaption"></span></p>
+        </div>
+        <div class="forecastCard">
+          <div id="firstDay" class="day-card"></div>
+          <div id="secondDay" class="day-card"></div>
+          <div id="thirdDay" class="day-card"></div>
+        </div>
       </section>
       <section class="spotlights">
         <div class="spot1">
@@ -129,5 +145,9 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburgerMenu.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/forecast.js"></script>
+    <script src="scripts/banner.js"></script>
+    <script src="scripts/advertising.js"></script>
   </body>
 </html>
