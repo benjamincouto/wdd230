@@ -13,6 +13,7 @@
   .navigation a {
     display: block;
     flex: 1 1 100%;
+    font-size: 1.2rem;
   }
 
   nav.navigation {
@@ -39,45 +40,51 @@
 
   .main-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
-    margin-top: 20px;
+    margin-top: 0;
     max-height: fit-content;
-    padding: 1rem;
+    padding: 2rem;
   }
 
   .hero-box {
     grid-column: 1/4;
-    grid-row: 1/3;
+    grid-row: 1/2;
     margin: 0;
   }
 
   .hero-image {
-    width: 100%;
-    border: solid 1px;
+    max-width: 100%;
+    border-radius: 8px;
+    height: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
   .events-card {
-    grid-column: 4/5;
-    grid-row: 1/3;
+    grid-column: 1/2;
+    grid-row: 2/3;
     margin: 0;
   }
 
   .hero-info {
     grid-column: 1/4;
-    grid-row: 1/3;
+    grid-row: 1/2;
     margin: 0;
     margin-top: 70px;
     font-size: larger;
   }
 
   .weather-card {
-    grid-column: 3/5;
+    grid-column: 3/4;
+    width: 100%;
+    margin: 0;
   }
 
   .spotlights {
-    grid-column: 1/3;
-    grid-row: 3/4;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 100%;
+    margin: 0;
   }
 
   /* Discover page */

@@ -9,12 +9,14 @@ body h1,
 h2,
 h3 {
   font-family: "Archivo", sans-serif;
+  color: #1d3557;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   line-height: 1.6;
   background-color: #fff;
+  color: #1d3557;
 }
 
 header {
@@ -75,15 +77,22 @@ header h1 {
   border: 1px solid #1d3557;
   border-radius: 10px;
   margin: 1rem;
+  font-size: 0.9rem;
 }
 
-.spotlights h2 {
-  color: #333;
-  margin-bottom: 10px;
+.events-card h3 {
+  margin-top: 0.5rem;
 }
 
-.spotlights p {
-  color: #666;
+.spot1,
+.spot2 {
+  margin: 1rem;
+  font-size: 1rem;
+}
+
+.event1,
+.event2 {
+  margin: 1rem;
 }
 
 footer {
@@ -403,22 +412,32 @@ footer {
 /* Weather Card */
 
 .weather-card {
-  display: flex; /* Use flexbox for horizontal layout */
-  justify-content: space-around; /* Space items evenly along the main axis */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   gap: 1rem;
-  align-items: center; /* Center items vertically */
+  align-items: center;
+  margin: 1rem;
 }
 
 .todayWeather {
   text-align: center;
   font-size: 1.2rem;
+  order: 1;
+}
+
+.forecastCard {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+  width: 100%;
+  order: 2;
 }
 
 .day-card {
-  flex: 1; /* Each day card takes equal space */
+  flex: 1;
   background-color: #e63946;
-  padding: 1rem;
-  border: 1px solid #1d3557;
+  padding: 0.5rem;
   border-radius: 10px;
   text-align: center;
   color: white;
@@ -427,7 +446,7 @@ footer {
 }
 
 .weather-icon img {
-  max-width: 100px; /* Adjust image size as needed */
+  max-width: 100px;
 }
 
 .weather-card p {
