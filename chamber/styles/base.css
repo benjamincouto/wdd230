@@ -77,7 +77,7 @@ header h1 {
   border: 1px solid #1d3557;
   border-radius: 10px;
   margin: 1rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .events-card h3 {
@@ -87,7 +87,7 @@ header h1 {
 .spot1,
 .spot2 {
   margin: 1rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .event1,
@@ -124,6 +124,7 @@ footer {
 .navigation a:hover {
   background-color: #e63946;
   font-weight: bolder;
+  color: #fff;
 }
 
 /* Hamburger Menu */
@@ -451,4 +452,20 @@ footer {
 
 .weather-card p {
   margin: 0.5rem 0;
+}
+
+/* Navigation - Active Page */
+
+nav a.active-nav {
+  color: #fff;
+}
+
+nav a.active-nav::before {
+  content: "| ";
+  color: #e63946;
+}
+
+nav a.active-nav::after {
+  content: " |";
+  color: #e63946;
 }
