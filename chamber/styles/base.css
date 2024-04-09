@@ -41,6 +41,10 @@ header h1 {
   margin: 0;
 }
 
+header a {
+  text-decoration: none;
+}
+
 .hero-box {
   text-align: center;
   margin-top: 1rem;
